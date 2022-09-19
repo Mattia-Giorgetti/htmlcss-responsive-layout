@@ -67,7 +67,7 @@ header a {
 #planning, #features, #get_started {
     background-color: var(--lilla);
 }
-#jumbo, #planning, #testimonials, #features, #about_us, #get_started{
+#jumbo, #planning, #testimonials, #features, #about_us, #get_started, footer{
     padding: 2.5rem 2rem;
 }
 .card {
@@ -145,6 +145,10 @@ header a {
 }
 .app_dev button {
     background-color: var(--lilla);
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
 }
 
 /* Testimonials  */
@@ -174,6 +178,7 @@ h5 {
     color: var(--white);
     margin-bottom: 1.5rem;
 }
+
 .testimonials_name {
     text-align: center;
     font-weight: bold;
@@ -229,6 +234,11 @@ h5 {
     line-height: 2rem;
     padding: 1rem 0;
 }
+.about_us_smalltext img {
+    width: 100%;
+    border-radius: 50%;
+    padding-top: 1rem;
+}
 .about_us_smalltext p {
     color: var(--lilla);
     font-size: 1.8rem;
@@ -242,6 +252,19 @@ h5 {
     word-spacing: 0.2rem;
     cursor: pointer;
 }
+.smalltext_pic {
+    width: 150px;
+    position: relative;
+}
+.smalltext_pic i {
+    font-size: 4rem;
+    color: var(--lilla);
+    position: absolute;
+    top: 8%;
+    left: 75%;
+}
+
+/* GET STARTED  */
 #get_started {
     text-align: center;
     color: var(--white);
@@ -267,8 +290,20 @@ h5 {
 .copyright a {
     color: white;
 }
+span.copyright {
+    font-size: 0.9rem;
+}
 
 /* FOOTER  */
 footer {
     background-color: var(--dark-gray);
+    color: var(--white);
+    text-align: center;
+    font-size: 0.9rem;
+}
+footer a {
+    color: var(--lilla);
+}
+footer p:first-child {
+    margin-bottom: 1.5rem;
 }
