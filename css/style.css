@@ -67,7 +67,7 @@ header a {
 #planning, #features, #get_started {
     background-color: var(--lilla);
 }
-#jumbo, #planning, #testimonials, #features {
+#jumbo, #planning, #testimonials, #features, #about_us, #get_started{
     padding: 2.5rem 2rem;
 }
 .card {
@@ -219,10 +219,54 @@ h5 {
     cursor: pointer;
 }
 
-
-
-
-
+/* ABOUT US  */
+.about_us_wot h3 {
+    font-size: 3rem;
+    color: var(--lilla);
+    padding: 1rem 0;
+}
+.about_us_wot p {
+    line-height: 2rem;
+    padding: 1rem 0;
+}
+.about_us_smalltext p {
+    color: var(--lilla);
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.2rem;
+    padding: 1rem 0;
+}
+.about_us_smalltext button {
+    color: var(--white);
+    background-color: var(--lilla);
+    word-spacing: 0.2rem;
+    cursor: pointer;
+}
+#get_started {
+    text-align: center;
+    color: var(--white);
+}
+#get_started h3 {
+    font-size: 2rem;
+}
+#get_started h2 {
+    color: var(--orange);
+    font-size: 4rem;
+    padding: 1rem 0;
+}
+#get_started button {
+    margin: 2rem auto; 
+    font-size: 1.5rem;   
+    color: var(--lilla);
+    background-color: var(--white);
+    padding: 1rem 3.5rem;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+}
+.copyright a {
+    color: white;
+}
 
 /* FOOTER  */
 footer {
