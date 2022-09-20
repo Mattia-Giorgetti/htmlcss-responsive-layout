@@ -18,12 +18,12 @@
             <a href="#"><img src="img/logo.png" alt="logo"></a>
             <span><i class="fa-solid fa-bars"></i></span>
             <nav class="nav_bar">
-                <ul>
-                    <li><a href="#">Planning</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#"><button>Get Started</button></a></li>
+                <ul class="flexbox jc_between align_center">
+                    <li><a href="#planning">Planning</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about_us">About Us</a></li>
+                    <li><a href="#get_started"><button class="btn">Get Started</button></a></li>
                 </ul>
             </nav>
         </div>
@@ -36,9 +36,11 @@
             <div class="container">
                 <div class="card_wrapper">
                     <div class="card">
-                        <h4>Get a demo application</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat animi veritatis officiis voluptatem voluptate! Alias obcaecati aspernatur esse dolorem?</p>
-                        <button class="btn"><i class="fa-brands fa-apple"></i> App Store</button>
+                        <div class="demo_app_text">
+                            <h4>Get a demo application</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat animi veritatis officiis voluptatem voluptate! Alias obcaecati aspernatur esse dolorem?</p>
+                            <button class="btn"><i class="fa-brands fa-apple"></i> App Store</button>
+                        </div>
                         <div class="mobile_pic"><img src="img/phone.png" alt="phone pic"></div>
                     </div>
                     <div class="card">
@@ -72,14 +74,14 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ratione laboriosam. Distinctio recusandae necessitatibus sit doloribus accusantium vero explicabo iste rerum sunt, voluptates mollitia, delectus ab. Atque harum nemo quis nobis! Quisquam, aspernatur vel.</p>
                 </div>
                 <div class="app_dev">
-                    <div><img src="img/planning2.png" alt="boy coding"></div>
+                    <div class="app_dev_pic"><img src="img/planning2.png" alt="boy coding"></div>
                     <h3>App Developement</h3>
                     <p>Develop an on-demand app for your delivery busines to reach your targeted customers without any interruption.</p>
-                    <a href="#"><button><i class="fa-solid fa-arrow-down"></i></button></a>
+                    <a href="#get_started"><button><i class="fa-solid fa-arrow-down"></i></button></a>
                 </div>
             </div>
         </section>
-        <section id="testimonials">    <!-- DA inserire le Pro-Pic -->
+        <section id="testimonials"> 
             <div class="container">
                 <div class="testimonials_title">
                     <h5>TESTIMONIALS</h5>
@@ -88,7 +90,7 @@
                     </p>
                 </div>
                 <div class="testimonials_card">
-                    <div class="testimonials_propic">Propic</div>
+                    <div class="testimonials_propic"></div>
 
                     <div class="testimonials_description">
                         <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus explicabo aspernatur at repudiandae blanditiis doloremque commodi, ducimus inventore fugit, sed itaque aliquam. <i class="fa-solid fa-quote-right"></i></p>
@@ -96,7 +98,7 @@
                     </div>
                 </div>
                 <div class="testimonials_card">
-                    <div class="testimonials_propic">Propic</div>
+                    <div class="testimonials_propic bg-2"></div>
 
                     <div class="testimonials_description">
                         <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus explicabo aspernatur at repudiandae blanditiis doloremque commodi, ducimus inventore fugit, sed itaque aliquam. <i class="fa-solid fa-quote-right"></i></p>
@@ -104,7 +106,7 @@
                     </div>
                 </div>
                 <div class="testimonials_card">
-                    <div class="testimonials_propic">Propic</div>
+                    <div class="testimonials_propic bg-3"></div>
 
                     <div class="testimonials_description">
                         <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus explicabo aspernatur at repudiandae blanditiis doloremque commodi, ducimus inventore fugit, sed itaque aliquam. <i class="fa-solid fa-quote-right"></i></p>
@@ -159,20 +161,21 @@
         </section>
         <section id="about_us">
             <div class="container">
-                <div class="about_us_wot">
-                    <h3>About Us</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non reprehenderit culpa quibusdam omnis esse aliquam inventore tempora itaque. Tempora, ullam eveniet amet sapiente, corrupti alias at beatae, hic quaerat culpa voluptatibus nesciunt ratione! Alias odit quaerat fuga voluptas numquam, perferendis corrupti possimus iure, molestias ratione eveniet distinctio illo fugiat earum laudantium quae labore quia beatae!</p>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officia, repellendus illum recusandae assumenda quaerat deserunt distinctio laudantium rerum asperiores autem suscipit illo, quia impedit? Ut perferendis officia labore fuga est adipisci pariatur necessitatibus fugiat accusamus quod dolorem, itaque quia ratione aliquam, placeat laborum quasi harum optio, nisi porro rerum.</p>
-
-                </div>
-                <div class="about_us_smalltext">
-                    <div class="smalltext_pic">
-                        <img src="img/about.jpg" alt="guy in suite">
-                        <i class="fa-solid fa-quote-left"></i>
+                <div class="about_us_wrapper">
+                    <div class="about_us_wot">
+                        <h3>About Us</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non reprehenderit culpa quibusdam omnis esse aliquam inventore tempora itaque. Tempora, ullam eveniet amet sapiente, corrupti alias at beatae, hic quaerat culpa voluptatibus nesciunt ratione! Alias odit quaerat fuga voluptas numquam, perferendis corrupti possimus iure, molestias ratione eveniet distinctio illo fugiat earum laudantium quae labore quia beatae!</p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officia, repellendus illum recusandae assumenda quaerat deserunt distinctio laudantium rerum asperiores autem suscipit illo, quia impedit? Ut perferendis officia labore fuga est adipisci pariatur necessitatibus fugiat accusamus quod dolorem, itaque quia ratione aliquam, placeat laborum quasi harum optio, nisi porro rerum.</p>
                     </div>
-                    <p>I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.</p>
-                    <a href="#"><button class="btn"><i class="fa-brands fa-linkedin"></i> Find me on linkedin</button></a>
+                    <div class="about_us_smalltext">
+                        <div class="smalltext_pic">
+                            <img src="img/about.jpg" alt="guy in suite">
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+                        <p>I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.</p>
+                        <a href="#"><button class="btn"><i class="fa-brands fa-linkedin"></i> Find me on linkedin</button></a>
+                    </div>
                 </div>
             </div>
         </section>
