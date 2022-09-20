@@ -37,9 +37,12 @@ body {
     padding: .5rem 2rem;
     border-radius: 20px;
     border: none;
+    transition: all 0.3s linear;
+}
+.btn:hover {
+    opacity: 0.8;
 }
     
-
 /* HEADER  */
 header {
     background-color: var(--blue);
@@ -52,6 +55,8 @@ header {
 header span{
     font-size: 1.5rem;
     cursor: pointer;
+    display: inline-block;
+    position: relative;
 }
 header a {
     text-decoration: none;
@@ -59,6 +64,9 @@ header a {
 }
 .nav_bar ul{
     list-style: none;
+}
+.nav_bar ul li:hover {
+    text-decoration: underline;
 }
 .nav_bar {
     display: none;
@@ -68,6 +76,21 @@ header a {
     background-color: var(--white);
     padding: 0.5rem 1rem;
     cursor: pointer;
+}
+.dropdown_content {
+    position: absolute;
+    background-color: var(--blue);
+    top: 3.5rem;
+    right: -2.5rem;
+    padding: 1rem;
+    display: none;
+}
+.dropdown_content ul li {
+    list-style: none;
+    padding: .5rem .5rem;
+}
+header span:hover .dropdown_content {
+    display: block;
 }
 
 /* MAIN  */
@@ -105,7 +128,7 @@ header a {
     text-align: left;
 }
 .mobile_pic {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 .mobile_pic img {
@@ -163,6 +186,10 @@ header a {
     border: none;
     border-radius: 50%;
     cursor: pointer;
+    transition: all 0.3s linear;
+}
+.app_dev button:hover {
+    transform: scale(1.2);
 }
 
 /* Testimonials  */
